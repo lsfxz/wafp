@@ -45,10 +45,10 @@ end
 require 'getoptlong'
 require 'sqlite3'
 # this is a modified version of net/http
-require "lib/wafp_http.rb"
-require "lib/wafp_https.rb"
+require_relative "lib/wafp_http"
+require_relative "lib/wafp_https"
 # this is a modified version of pidify
-require "lib/wafp_pidify.rb"
+require_relative "lib/wafp_pidify"
 require 'uri'
 require 'thread'
 require 'timeout'

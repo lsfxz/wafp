@@ -98,7 +98,7 @@ It can be replaced by the following code:
 
 =end
 
-require "lib/wafp_http.rb"
+require_relative "wafp_http"
 require 'openssl'
 
 module Net
